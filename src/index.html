@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML to Elm</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cf:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .col {
+            float: left;
+            width: 50%;
+        }
+
+        .height-full {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="cf height-full">
+    <div id="html-editor" class="col height-full"></div>
+    <div id="elm-editor" class="col height-full"></div>
+</div>
+</body>
+</html>

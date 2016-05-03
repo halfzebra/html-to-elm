@@ -1,0 +1,21 @@
+{
+  "name": "pragmatic-html-to-elm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/webpack-dev-server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "brace": "^0.8.0",
+    "html-webpack-plugin": "^2.16.0",
+    "htmlparser": "^1.7.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
